@@ -1,0 +1,181 @@
+img{
+    height: 500px;
+    width: 100px;
+    border-radius: 100px;
+    background-image: url(../../Users/Lenovo/Downloads/chennai-super-kings-indian-premier-league-ipl-ipl-2021-7680x4320-4938.png);
+    background-size: cover;
+    background-position: center;
+}
+
+video{
+    height:500px;
+    width:500px;
+    border-radius:500px;
+    background-image: url(../../Users/Lenovo/OneDrive/Pictures/Screenshots/Screenshot 2026-06-06 101901.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ol{
+    list-style-type:lower-roman
+}
+
+ul{
+    list-style-type: square
+}
+
+h1{
+    padding: 50px;
+}
+
+button{
+    background-color: white;
+    padding:50px;
+    marign:50px;
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+table{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#p1{
+    font-style: italic;
+}
+
+#p2{
+    font-style: normal;
+}
+
+.group{
+    font-size: xx-large;
+}
+
+
+.grid{
+    display: grid;
+}
+#one{
+    grid-area: 1/2;
+}
+#two{
+    grid-area: 1/2;
+}
+#three{
+    grid-area: 1/2;
+}
+#four{
+    grid-area: 1/2;
+}
+#five{
+    grid-area: 2/3;
+}
+#six{
+    grid-area: 2/3;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+body {
+    color: brown;
+    background-color: black;
+}
+
+p {
+
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+}
+
+img {
+    height: Auto;
+    width: 100%;
+    border-radius: 100px;
+}
+
+@media (min-width: 1024px) {
+    img {
+        height: auto;
+        width: 500px;
+    }
+}
+
+video {
+    border-radius: 100px;
+}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+h1 {
+    padding: 50px;
+    border: 1px solid brown;
+    margin: 50px;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+button:hover {
+    background-color: brown;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+media (min-width: 1024px) 
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#p1 {
+    font-style: italic;
+    color:
+
+}
+
+#p2 {
+    font-style: normal;
+}
+
+.group {
+    font-size: xx-large;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+@media(min-width:1024px){
+    .grid{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
