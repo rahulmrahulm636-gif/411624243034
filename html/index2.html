@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> doramenon </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Navbar - Mobile First */
+        nav {
+            display: flex;
+            flex-direction: column;
+            background: #f0f0f0;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+
+        /* Desktop Navbar */
+        @media (min-width:768px) {
+            nav {
+                flex-direction: row;
+                gap: 30px;
+            }
+        }
+
+        h1 {
+            margin: 20px 0;
+        }
+
+        /* Image */
+        img {
+            width: 300px;
+            max-width: 100%;
+            border-radius: 50px;
+            /* Even Roll Number */
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* Video */
+        video {
+            width: 50vw;
+            padding: 10px;
+            background-color: blue;
+            /* Change according to roll number */
+            margin-bottom: 20px;
+        }
+
+        /* Table */
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #ddd;
+        }
+
+        /* Button */
+        button {
+            border: none;
+            padding: 12px 25px;
+            background-color: blue;
+            /* Same as video */
+            color: white;
+            cursor: pointer;
+            margin: 20px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+
+        /* Grid - Desktop First */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .box {
+            background: #ddd;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Mobile Layout */
+        @media (max-width:767px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Heading -->
+    <h1>Responsive Website</h1>
+
+    <!-- Image -->
+    <img src="c:\Users\Lenovo\Downloads\clipart1487126.png" alt="Sample Image">
+
+    <!-- Video -->
+    <video controls>
+        <source src="https://rr2---sn-gwpa-h55el.googlevideo.com/videoplayback?expire=1781520240&ei=EIMvatTnOOHBmsMPzJqfoAk&ip=43.241.194.197&id=o-ABXXc50YpeZNh63GzdPcRqMO8WSk8mVRvz-YFi390syH&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=255&bui=ARmQxEU9bPA-GB97ePoZZlHhGv2FkNmJIB4unU_APTcwRwd7O2bnsLHVjQ3xaebRgebFjJeIjDYRzFQK&spc=SQ-umpgf1DCkEqk4q4e5OxDKY9DGI3Rh22q3dFblwQ1igZQ4oOcWtye-xEOefjFx6Wc&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=680.414&lmt=1664052656857449&fexp=51565115,51565682&c=ANDROID&txp=5538434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AHEqNM4wRQIgcymC_3lN3ZxWPl1BRUxUd7zts8QYN0fTCnkCiO7C1_sCIQCA6Zbtmmd_305g0hXIIowqOx9IuwdIlvafCrn8cF5onA%3D%3D&title=The+Heart+Touching+Films+Which+Make+You+Feel+So+Emotional%21&rm=sn-bu2a-5hq67e,sn-cvhyyk7l&rrc=79,104&req_id=67835104dda1a3ee&rms=rdu,au&redirect_counter=2&cms_redirect=yes&cmsv=e&ipbypass=yes&met=1781498953,&mh=6j&mip=139.167.56.194&mm=29&mn=sn-gwpa-h55el&ms=rdu&mt=1781498640&mv=u&mvi=2&pl=22&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgW5ji-NQTrZAWsvaVvTZ2t078hT1u2C3z_BgEfsX4ztECID2JXMIP9DcVQu-M9FFVwOTRMbklH1-SgLDpUGL3vfrk" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <!-- Table -->
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>some text</td>
+            <td>some text</td>
+            <td>some text</td>
+        </tr>
+        <tr>
+            <td>some text</td>
+            <td>some text</td>
+            <td>some text</td>
+        </tr>
+    </table>
+
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <!-- Grid -->
+    <div class="grid-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </div>
+
+</body>
+
+</html>
